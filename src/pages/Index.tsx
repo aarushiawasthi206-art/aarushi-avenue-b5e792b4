@@ -6,8 +6,6 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import StrengthsSection from "@/components/StrengthsSection";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
 
 const Index = () => (
   <div className="min-h-screen bg-background">
@@ -19,8 +17,6 @@ const Index = () => (
     <ProjectsSection />
     <PortfolioSection />
     <StrengthsSection />
-    <ContactSection />
-    <Footer />
   </div>
 );
 
